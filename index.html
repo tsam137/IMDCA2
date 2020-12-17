@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Toba's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-md navbar-light bg-light">
+    <div class="justify-content-center">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Toba Samuel</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav" style="scroll-behavior: smooth">
+            <li><a href="#home" style="scroll-behavior: smooth"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            </li>
+            <li><a href="#about" style="scroll-behavior: smooth"> <i class="fa fa-user" aria-hidden="true"></i> About
+                Me</a></li>
+            <li><a href="#education" style="scroll-behavior: smooth"> <i class="fa fa-mortar-board"
+                  aria-hidden="true"></i> Education</a></li>
+            <li><a href="#work" style="scroll-behavior: smooth"> <i class="fa fa-briefcase" aria-hidden="true"></i>
+                Previous Work</a></li>
+            <li><a href="#hobbies" style="scroll-behavior: smooth"> <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                Projects & Hobbies</a></li>
+            <li><a href="#contact" style="scroll-behavior: smooth"> <i class="fa fa-phone" aria-hidden="true"></i>
+                Contact</a></li>
+            <li><a href="features.html" style="scroll-behavior: smooth"> <i class="fa fa-tools" aria-hidden="true"></i>
+                -Features Used-</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <div id="home">
+    <div id="homeContainer">
+      <div id="homeInfo" class="w3-animate-left">
+        <h1>Hello,</h1>
+        <h1>I'm Toba Samuel</h1>
+        <h2>A Junior Software Developer</h2>
+        <h3>BSc Hons Computing with Software Development </h3>
+        <br>
+        <div id="homeButtons">
+          <button>Download CV</button>
+
+          <!-- Contact Form -->
+          <div class="w3-container text-center">
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-#333">Contact
+              Me</button>
+            <div id="id01" class="w3-modal">
+              <div class="w3-modal-content w3-animate-top w3-card-4" style="border-radius: 10px;">
+                <header class="w3-container w3-dark-gray">
+                  <span onclick="document.getElementById('id01').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                  <h2>Write to me</h2>
+                </header>
+                <div id="contactForm">
+                  <form col-md-5>
+                    <div class="form-group">
+                      <label>First Name</label>
+                      <input type="text" class="form-control" placeholder="Please enter first name">
+                    </div>
+
+                    <div class="form-group">
+                      <label>Last Name</label>
+                      <input type="text" class="form-control" placeholder="Please enter last name">
+                    </div>
+
+                    <div class="form-group">
+                      <label>Email</label>
+                      <input type="email" class="form-control" placeholder="Please enter email" required>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="comment">Message</label>
+                      <textarea class="form-control" rows="5" id="comment"
+                        placeholder="Please enter message"></textarea>
+                    </div>
+
+                    <input type="submit" value="Submit">
+                  </form>
+
+                </div>
+                <footer class="w3-container w3-dark-grey">
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="profilePicture" class="w3-animate-right">
+        <img id="profilePictureImg" src="images/profilePicture.JPG" alt="Profile Picture" style="width:400px">
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+  <!-- About -->
+  <div id="about" class="container-fluid">
+    <div id="aboutContainer" class="container-fluid w3-animate-bottom">
+
+      <div id="aboutMiddle">
+        <div id="aboutPicture">
+          <img id="aboutPictureImg" src="images/profilePicture2.JPG" alt="Profile Picture" style="width:400px">
+        </div>
+        <div id="aboutInfo" class="container-fluid">
+          <div id="aboutHeader">
+            <h1>About Me</h1>
+          </div>
+          <br>
+          <p>I'm an ambitious and motivated individual who is now upskilling in the area of Computer Science and
+            Software Engineering.
+            Able to work on own initiative but also have the skills to work as part of an effective team.
+            Excellent attention to detail which has gone hand in hand with my customer service skills.
+            Now looking to use my communication skills combined with my customer service skills to find a place of work
+            in your organisation.</p>
+          <br>
+          <p>Experience I have gained:</p>
+          <li>C#, Java, C++, Python</li>
+          <li>HTML, CSS, Vue.js, Javascript, Bootstrap</li>
+          <li>MongoDB, mySQL, Oracle 11G</li>
+          <li>Agile</li>
+          <li>Cisco</li>
+          <li>UML</li>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Education   -->
+  <div id="Education Divider">
+
+
+    <div id="education" class="container-fluid">
+      <br>
+      <h1>Education</h1>
+      <br>
+      <div id="educationContainer">
+        <button class="accordion" id="defaultOpen">TUD Tallaght | 2017 - 2021</button>
+        <div class="panel">
+          <br>
+          <p><a href="https://www.it-tallaght.ie/" target="_blank"><u>Technological Univeristy Dublin, Tallaght
+                Campus</u></a></p>
+          <p>Level 8 - Bsc Hons in Computing with Software Developement</p>
+          <br>
+          <div id="tabs" style="width: 80%;">
+            <div class="w3-bar w3-dark-grey">
+              <button class="w3-bar-item w3-button" onclick="openYear('Year 4')">Year 4</button>
+              <button class="w3-bar-item w3-button" onclick="openYear('Year 3')">Year 3</button>
+              <button class="w3-bar-item w3-button" onclick="openYear('Year 2')">Year 2</button>
+              <button class="w3-bar-item w3-button" onclick="openYear('Year 1')">Year 1</button>
+            </div>
+            <br>
+            <div id="Year 4" class="w3-container w3-display-container year w3-animate-bottom">
+              <h2>Year 4 - Modules</h2>
+              <br>
+              <ul>
+                <li>Information Management</li>
+                <li>Enterprise Application Design 1</li>
+                <li>Final year project</li>
+                <li>Interactive Media Design & Visualisation</li>
+                <li>Enterprise Applications Development 2</li>
+                <li>Enterprise Performance Architecture</li>
+                <li>Applied Machine Learning</li>
+                <li>AI & Deep Learning</li>
+                <li>Algorithms & Computation</li>
+                <li>Computational Theory</li>
+                <br>
+                <h4 style="text-align: end; color: black;">GPA: 2.77</h4>
+              </ul>
+            </div>
+
+            <div id="Year 3" class="w3-container w3-display-container year w3-animate-bottom" style="display:none">
+              <h2>Year 3 - Modules</h2>
+              <br>
+              <ul>
+                <li>Work Placement - SAP</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Operating Systems</li>
+                <li>Big Data Technologies</li>
+                <li>Cloud Services & Distributed Computing</li>
+                <li>Data Analysis</li>
+                <li>Server-Side Web Development</li>
+                <br>
+                <h4 style="text-align: end; color: black;">GPA: 2.77</h4>
+              </ul>
+            </div>
+
+            <div id="Year 2" class="w3-container w3-display-container year w3-animate-bottom" style="display:none">
+              <h2>Year 2 - Modules</h2>
+              <br>
+              <ul>
+                <li>Software Development 3</li>
+                <li>Client-Side Web Development</li>
+                <li>2nd Year Project</li>
+                <li>Advanced Database Technologies</li>
+                <li>Routing & Switching Essentials</li>
+                <li>Networking Fundamentals</li>
+                <li>Management Science</li>
+                <li>Discrete Mathematics 2</li>
+                <li>Software QA and Testing</li>
+                <li>Data Administration and Analysis</li>
+                <li>Software Development 4</li>
+                <li>Information Security</li>
+                <br>
+                <h4 style="text-align: end; color: black;">GPA: 2.98</h4>
+              </ul>
+            </div>
+
+            <div id="Year 1" class="w3-container w3-display-container year w3-animate-bottom" style="display:none">
+              <h2>Year 1 - Modules</h2>
+              <br>
+              <ul>
+                <li>Discrete Mathematics</li>
+                <li>Web Design and User Interface</li>
+                <li>Business Information Systems</li>
+                <li>Software Development</li>
+                <li>Computer Architecture</li>
+                <li>Learning To Learn</li>
+                <li>Software Development 2</li>
+                <li>Database Fundamental</li>
+                <li>Operating System</li>
+                <li>Object Oriented System Analysis</li>
+                <li>Statistics</li>
+                <li>Social Media Communication</li>
+                <br>
+                <h4 style="text-align: end; color: black;">GPA: 3.19</h4>
+              </ul>
+            </div>
+
+            <script>
+              function openYear(yearNum) {
+                var i;
+                var x = document.getElementsByClassName("year");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";
+                }
+                document.getElementById(yearNum).style.display = "block";
+              }
+            </script>
+          </div>
+        </div>
+
+        <button class="accordion">St Conleths Community College | 2015 - 2017</button>
+        <div class="panel">
+          <p>St Conleths Community College, Newbridge</p>
+          <p>Level 6 - Computer Science with Software Development & Game Design</p>
+          <br>
+          <h2>Modules</h2>
+          <ul>
+            <li>Programming and Design Principles: <span style="color:black;">Distinction</span></li>
+            <li>User Interface Programming: <span style="color:black;">Distinction</span></li>
+            <li>Object Orientated Programming: <span style="color:black;">Distinction</span></li>
+            <li>Games Development: <span style="color:black;">Distinction</span></li>
+            <li>Software Architecture: <span style="color:black;">Distinction</span></li>
+            <li>Web Development: <span style="color:black;">Distinction</span></li>
+            <li>Project Management: <span style="color:black;">Distinction</span></li>
+            <li>Communications: <span style="color:black;">Distinction</span></li>
+            <li>Work Experience: <span style="color:rgb(102, 102, 102);">Merit</span></li>
+            <li>Mathematics: <span style="color:rgb(102, 102, 102);">Merit</span></li>
+            <br>
+            <h4 style=" color: black; padding-right: 15%;">Overall Grade: Distinction</h4>
+          </ul>
+        </div>
+
+        <button class="accordion">C.B.S Naas | 2009 - 2015</button>
+        <div class="panel">
+          <br>
+          <h3>Leaving Certificate</h3>
+          <br>
+          <p style="color: black;">Points: 300</p>
+        </div>
+
+        <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+            });
+          }
+          document.getElementById("defaultOpen").click();
+        </script>
+
+      </div>
+      <br>
+    </div>
+  </div>
+
+  <!-- Previous Work HTML -->
+  <div id="work" class="container-fluid">
+    <h1>Previous Work</h1>
+    <br>
+    <br>
+    <div id="workContainer" class="container-fluid">
+      <div id="work1" class="tabcontent">
+        <div id="workCon1" class="w3-animate-bottom container-fluid">
+          <img src="images/sapLogo.jpg" alt="SAP" width="200px" height="150px">
+          <br>
+          <h2>Product Support Engineer</h2>
+          <h4>January - August 2020</h4>
+          <br>
+          <p style="text-align:left;">My role in the company as a Product Support Engineer was to help customers with
+            product deficiencies that arose in the area of Web UI.
+            I dealt with many customers from different business sectors who had questions about their products.
+            My role was to provide an answer or a solution to them.
+            I had to work as part of a team and as an individual to meet KPI's.</p>
+        </div>
+
+      </div>
+
+      <div id="work2" class="tabcontent">
+        <div id="workCon1" class="w3-animate-bottom container-fluid">
+          <img src="images/dunne&crescenzi.png" alt="D&C" width="250px" height="150px">
+          <br>
+          <h2>Barista</h2>
+          <h4>August 2019 - February 2020</h4>
+          <br>
+          <p style="text-align:left;">I had to at times work as a team. At times I worked on my own initiative. When
+            working there usually I was in a fast paced environment.
+            I had to always deliver excellent customer service as I was dealing with food.
+            I had to pay close attention to detail when preparing foods to be able to meet health & safety measures.
+            I was trusted with opening and at times closing coffee bar.</p>
+        </div>
+      </div>
+
+      <div id="work3" class="tabcontent">
+        <div id="workCon1" class="w3-animate-bottom container-fluid">
+          <img src="images/avivaLogo.png" alt="Aviva" width="200px" height="150px">
+          <br>
+          <h2>Cashier</h2>
+          <h4>February 2018 - February 2020</h4>
+          <br>
+          <p style="text-align:left;">I served beverages or foods to customers.
+            I also answered any questions that the customer may have.
+            As a memeber of staff at Aviva Stadium I also took orders and enter them into the till.
+            I Handled the money given to me by the customers.
+            I also calculate the total of my cash registers at the end of my shift.</p>
+        </div>
+      </div>
+
+      <div id="work4" class="tabcontent">
+        <div id="workCon1" class="w3-animate-bottom container-fluid">
+          <img src="images/scoilCrest.jpg" alt="Scoil Mhuire" width="200px" height="150px">
+          <br>
+          <h2>Teachers Assistant</h2>
+          <h4>February 2018 - February 2020</h4>
+          <br>
+          <p style="text-align:left;">As a teachers assistant in Scoil Mhuire Newbridge I had to plan what I would teach
+            the children every week.
+            I taught primary school children how to create 2D games and animations by using Scratch.
+            I also answered any questions about coding that the children may have had.
+            I also had to ensure that all the students had a fully working 2D game.
+          </p>
+        </div>
+      </div>
+
+      <button class="tablink" onclick="openWork('work1', this, 'white')" id="defaultOpen2">SAP Ireland</button>
+      <button class="tablink" onclick="openWork('work2', this, 'white')">Dunne & Crescenzi</button>
+      <button class="tablink" onclick="openWork('work3', this, 'white')">Aviva Stadium</button>
+      <button class="tablink" onclick="openWork('work4', this, 'white')">Scoil Mhuire</button>
+
+      <script>
+        document.getElementById("defaultOpen2").click();
+        function openWork(workName, elmnt, color) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+          }
+          document.getElementById(workName).style.display = "block";
+          elmnt.style.backgroundColor = color;
+          elmnt.style.color = "black";
+
+        }
+
+      </script>
+    </div>
+  </div>
+
+  <!-- Projects & Hobbies HTML -->
+  <div id="hobbies" class="container-fluid">
+    <h1>Projects & Hobbies</h1>
+    <br>
+    <br>
+    <div id="hobbiesContainer" class="container-fluid" style="display: flex; padding: 10px; margin: auto;">
+
+      <!-- 4th Year Project -->
+      <div id="tudContainer" style="order: 1; padding: 5px; margin: auto;
+    border-radius:15px;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2); ">
+        <p style="text-align: center;">4th Year Project</p>
+        <input type="image" src="images/tudLogo.webp" alt="Technological University Dublin" width="250px" height="150px"
+          class="btTxt submit" id="tudImage" onclick="document.getElementById('tudProject').style.display='block'" />
+
+      </div>
+      <div id="tudProject" class="w3-modal">
+        <div id="modalForms" class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-dark-gray">
+            <span onclick="document.getElementById('tudProject').style.display='none'"
+              class="w3-button w3-display-topright">&times;</span>
+            <h2 style="text-align: center;">4th Year Project</h2>
+          </header>
+          <br>
+          <h3 style="text-align:center;">weLearn</h3>
+          <br>
+          <p style="text-align:left; padding: 10px;">I am designing a web app called GURU, where users can learn
+            languages and teach languages to others that desire to learn them.
+            For instance, if a user already knew English and wanted to learn German, they would look through profiles on
+            the website and find a user that wanted to learn English and already knew German.
+            Users would be able to create an account and add information about the language(s) they already know and the
+            languages they desire to know along with other information like age and country location.
+            Once a profile has been created then a user would be able to send messages to other users to set up times
+            and dates to have meetings online to teach each other the desired languages.</p>
+          <br>
+          <div id="tudLogo" style="padding: 20px; margin: auto;">
+            <img src="images/learning.gif" style="padding:10px" alt="Technological University Dublin" width="90%"
+              height="350px">
+          </div>
+          <br>
+          <footer class="w3-container w3-dark-grey">
+          </footer>
+        </div>
+      </div>
+
+      <!-- SAP Project -->
+      <div id="sapContainer" style="order: 2; padding: 5px; margin: auto;
+    border-radius:15px;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2); ">
+        <p style="text-align: center;">Internship Experience Project</p>
+        <input type="image" src="images/sapLogo.jpg" alt="SAP" width="250px" height="150px" class="btTxt submit"
+          id="sapImage" onclick="document.getElementById('sapProject').style.display='block'" />
+      </div>
+      <div id="sapProject" class="w3-modal">
+        <div id="modalForms" class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-dark-gray">
+            <span onclick="document.getElementById('sapProject').style.display='none'"
+              class="w3-button w3-display-topright">&times;</span>
+            <h2 style="text-align: center;">Internship Experience Project</h2>
+          </header>
+          <br>
+          <h3 style="text-align:center;">GURU - Grow, Understand, Ramp Up</h3>
+          <br>
+          <p style="text-align:left; padding: 10px;">During my time at SAP, I took part in a project with some other
+            interns in my field.
+            We had various meetings at the beginning to iron out how we would go about doing this project.
+            In those meetings, we decided that we would be fixing a tool in the company that is used for the onboarding
+            of new hires.
+            We named the project GURU which stands for Grow, Understand, Ramp Up.
+            We established that the best methodology to use would be the Design Thinking Methodology.
+            This is a methodology that heavily involves the users that will be using the product.
+            We used programs like Adobe XD to design Low to High Fidelity Prototypes in order to get an idea of what we
+            had to design.
+            We then used Vue.js to code the website for the new Onboarding Tool.
+            This tool had the potential to be used by SAP interns all over the globe as the tool that was used globaly
+            at that time was outdated.</p>
+          <br>
+          <div id="tudLogo" style="padding: 20px; margin: auto;">
+            <img src="images/teamWork.gif" style="padding:10px" alt="Technological University Dublin" width="90%"
+              height="300px" class="center">
+          </div>
+          <br>
+          <footer class="w3-container w3-dark-grey">
+          </footer>
+        </div>
+      </div>
+
+      <!-- Hobbies -->
+      <div id="guitarContainer" style="order: 3; padding: 5px; margin: auto; 
+    border-radius:15px;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);">
+        <p style="text-align: center;">Learning Guitar</p>
+        <input type="image" src="images/guitar.jpg" alt="Guitar" width="250px" height="150px" class="btTxt submit"
+          id="guitarImage" onclick="document.getElementById('guitar').style.display='block'" />
+      </div>
+      <div id="guitar" class="w3-modal">
+        <div id="modalForms" class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-dark-gray">
+            <span onclick="document.getElementById('guitar').style.display='none'"
+              class="w3-button w3-display-topright">&times;</span>
+            <h2 style="text-align: center;">Learning Guitar</h2>
+          </header>
+          <br>
+          <br>
+          <p style="text-align:left; padding: 10px;">I have recently started getting a lot better at playing the guitar.
+            I picked up the guitar as a hobby about a year ago and am finding it very calming to learn various chords
+            and songs.
+            Playing guitar is one of my favourite hobbies and I have had a lot more time to play it during the lockdown.
+          </p>
+          <br>
+          <div id="tudLogo" style="padding: 20px; margin: auto;">
+            <img src="images/guitar2.gif" alt="Technological University Dublin" width="90%" height="300px"
+              class="center">
+          </div>
+          <br>
+          <footer class="w3-container w3-dark-grey">
+          </footer>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Contact html -->
+  <div id="contact" class="container-fluid">
+    <h1 style="text-align: center;">Contact Me</h1>
+    <div class="jumbotron w3-display-topright" style="width: 90%;">
+      <div class="w3-container text-center">
+        <div class="w3-modal-content w3-animate-bottom w3-card-4" style=" background-color: #ffffff;color: #000;
+       border-radius: 10px; display: flex; ">
+          <div id="contactCard" style="padding:40px; margin: auto;" class="w3-animate-left">
+            <form>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <p> 0874487684</p>
+              <br>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <p></i> tobasamuel137@gmail.com</p>
+              <br>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <p> </i> Tallaght, Dublin</p>
+            </form>
+          </div>
+          <div id="contactMe" style="padding:40px; margin: auto; width:60%;" class="w3-animate-right">
+            <form col-md-12>
+              <div class="form-group">
+                <label>First Name</label>
+                <input type="text" class="form-control" placeholder="Please enter first name">
+              </div>
+
+              <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" class="form-control" placeholder="Please enter last name">
+              </div>
+
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Please enter email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="comment">Message</label>
+                <textarea class="form-control" rows="5" id="comment" placeholder="Please enter message"></textarea>
+              </div>
+
+              <input type="submit" class="btn-primary"
+                style="background-color:#333; border-radius: 10px; padding:7.5px;" value="Submit">
+            </form>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="social">
+      <a href="https://github.com/tsam137" target="_blank"><i class="fa fa-github" style="font-size:24px"></i></a>
+      <a href="https://www.linkedin.com/in/toba-samuel-719b1115a/" target="_blank"><i class="fa fa-linkedin"
+          style="font-size:24px"></i></a>
+      <a href="https://www.youtube.com/channel/UCliysMgyzTngM4P0AIIKopQ" target="_blank"><i class="fa fa-youtube"
+          style="font-size:24px"></i></a>
+    </div>
+  </div>
+
+  <!-- Footer HTML -->
+  <footer style="background-color: #333; text-align: center; color: white;">
+    <br>
+    <p>Copyright <i class="fa fa-copyright" aria-hidden="true"> 2020 Toba Samuel's Portfolio</i></p>
+    <br>
+  </footer>
+</body>
+
+</html>
+
+
+
+<style>
+  body {
+    position: relative;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Navbar CSS */
+
+  .navbar>.container .navbar-brand,
+  .navbar>.container-fluid .navbar-brand {
+    margin-left: 100px;
+
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+  /* Home CSS */
+
+  #home {
+
+    padding-top: 100px;
+    height: 800px;
+    color: rgb(99, 96, 96);
+    background-image: url("images/homeBackground.gif");
+    background-color: #cccccc;
+    background-size: 100%;
+    text-align: left;
+    font-family: Consolas;
+    /* justify-content:space-between; */
+
+  }
+
+  #homeContainer {
+    margin-top: 100px;
+    margin: 0px, 0px, 20px, 20px;
+    display: flex;
+    /* border:1px #ccc solid; */
+    justify-content: space-between;
+    padding: 50px;
+    flex-basis: 27%;
+  }
+
+  #homeHeader {
+    font-size: 40px;
+    margin-top: 100px;
+    flex: 1;
+    order: 1;
+
+  }
+
+  #homeInfo button {
+    background-color: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #homeInfo button:hover {
+    background-color: rgb(121, 118, 118);
+  }
+
+  #homeButtons {
+    display: flex;
+  }
+
+  .w3-modal-content w3-animate-top w3-card-4 {
+    display: flex;
+  }
+
+  #contactForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  #profilePictureImg {
+    border-radius: 5%;
+    flex: 2;
+    order: 2;
+  }
+
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    scroll-behavior: smooth;
+
+  }
+
+  /* About CSS */
+
+  #about {
+    padding-top: 1px;
+    height: 800px;
+    color: rgb(99, 96, 96);
+    background-color: #cccccc;
+    text-align: center;
+    background-image: url("images/homeBackground.gif");
+  }
+
+  #aboutContainer {
+    width: 90%;
+    height: 600px;
+    padding: 50px;
+    background: #ffffffd8;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 5% auto 20px auto;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #aboutMiddle {
+    height: 700px;
+    margin-top: 70px;
+    margin: 0px, 0px, 20px, 20px;
+    display: flex;
+    /* border:2px #ccc solid; */
+    padding: 100px;
+  }
+
+  #aboutHeader {
+    font-size: 40px;
+    margin-top: 1px;
+  }
+
+  #aboutPicture {
+    height: 200px;
+    justify-content: flex-start;
+    flex: 1;
+    order: 1;
+    transition-property: width;
+    transition-duration: 2s;
+
+  }
+
+  #aboutPictureImg {
+    border-radius: 5%;
+
+  }
+
+  #aboutPictureImg:hover {
+    width: 600px;
+  }
+
+  #aboutInfo {
+    font-size: 16px;
+    width: 15%;
+    height: 300px;
+    background: rgba(255, 0, 0, 0);
+    text-align: left;
+    flex: 2;
+    order: 2;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: flex-end;
+  }
+
+
+
+  /* Education CSS */
+  #education {
+    padding-top: 30px;
+    padding-left: 70px;
+    height: 1000px;
+    color: rgb(99, 96, 96);
+    background-image: url("images/homeBackground.gif");
+  }
+
+
+  #tabs {
+    width: 700px;
+    display: inline-block;
+    height: 550px;
+    border-radius: 10px;
+    border: .5px rgb(255, 254, 254) solid;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .w3-dark-grey,
+  .w3-hover-dark-grey:hover,
+  .w3-dark-gray,
+  .w3-hover-dark-gray:hover {
+    color: #fff !important;
+    background-color: #616161 !important;
+    border-radius: 10px;
+  }
+
+  .accordion {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 10px;
+  }
+
+
+  .active,
+  .accordion:hover {
+    background-color: #616161 !important;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .accordion .active:after {
+    content: "\2212";
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    width: 90%;
+    height: 600px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  /* Previous Work CSS */
+  #work {
+    padding-left: 70px;
+    padding-top: 50px;
+    height: 750px;
+    color: rgb(99, 96, 96);
+    background-image: url("images/homeBackground.gif");
+  }
+
+  #workContainer {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+
+  .tablink:active {
+    color: #555;
+  }
+
+  element.style {
+    background-color: white;
+    color: #555 !important;
+  }
+
+  .tablink:hover {
+    background-color: #777;
+  }
+
+
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+  }
+
+  #work1,
+  #work2,
+  #work3,
+  #work4 {
+    background-color: #fff;
+    height: 500px;
+    /* width: 90%; */
+    color: rgb(99, 96, 96);
+  }
+
+
+  /* Projects & Hobbies CSS */
+
+  #hobbies {
+    padding-top: 50px;
+    padding-left: 70px;
+    height: 600px;
+    color: rgb(99, 96, 96);
+    background-image: url("images/homeBackground.gif");
+  }
+
+  #tudImage {
+    transition: width 1s;
+  }
+
+  #tudImage:hover {
+    width: 300px;
+
+  }
+
+  #sapImage {
+    transition: width 1s;
+  }
+
+  #sapImage:hover {
+    width: 300px;
+
+  }
+
+  #guitarImage {
+    transition: width 1s;
+  }
+
+  #guitarImage:hover {
+    width: 300px;
+  }
+
+
+  /* Contact CSS */
+  #contact {
+    padding-top: 50px;
+    height: 700px;
+    color: rgb(99, 96, 96);
+    background-image: url("images/homeBackground.gif");
+  }
+
+  .jumbotron {
+    width: 95%;
+    height: 500px;
+    padding: 50px;
+    padding-bottom: 80px;
+    background-color: transparent;
+    display: flex;
+    margin: 5% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 479px) {
+    #contact {
+      width: 90%;
+    }
+  }
+
+  .social {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+  }
+
+  .social a {
+    line-height: 0px;
+    background-color: #fff;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .social a:hover {
+    background-color: #000000;
+    transition: all ease 0.5s;
+    color: #fff;
+  }
+
+  .social i {
+    font-size: 20px;
+    color: #2b2b2b;
+  }
+
+  .social i:hover {
+    font-size: 20px;
+    color: #fff;
+  }
+</style>
